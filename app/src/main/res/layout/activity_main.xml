@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.abir.greendaodatabase.MainActivity">
+
+
+    <EditText
+        android:id="@+id/shopname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:hint="SHOP NAME"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/malik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/shopname"
+        android:layout_below="@+id/shopname"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:hint="OWNER NAME"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/malik"
+        android:layout_below="@+id/malik"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:hint="ADDRESS"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/mbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/add"
+        android:layout_below="@+id/add"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="MOBILE"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/sv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mbl"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:text="SAVE" />
+</RelativeLayout>
